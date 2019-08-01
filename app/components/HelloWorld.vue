@@ -26,7 +26,7 @@
 ul {
   display: flex;
   flex-wrap: wrap;
-  width: 606px;
+  width: 456px;
   list-style: none;
   border: 2px solid black;
   padding: 2px;
@@ -34,8 +34,8 @@ ul {
 }
 
 li {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 1px solid black;
   line-height: 200px;
   font-size: 150px;
