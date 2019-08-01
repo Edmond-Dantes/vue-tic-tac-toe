@@ -2,7 +2,7 @@
   <div>
     <h1>Tic Tac Toe</h1>
     <h2 v-if="gameOver">{{ gameOverMessage }}</h2>
-    <h2 v-else="gameOver">Player {{ pOneTurn ? '1' : '2' }}'s turn</h2>
+    <h2 v-else>Player {{ pOneTurn ? '1' : '2' }}'s turn</h2>
     <ul>
       <li
         v-bind:key="box.key"
